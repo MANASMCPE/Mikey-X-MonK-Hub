@@ -9,16 +9,16 @@ local localPlayer = players.LocalPlayer
 local windui = loadstring(game:HttpGet("https://raw.githubusercontent.com/nxvap/windui/refs/heads/main/1.6.54.lua"))()
 
 local window = windui:CreateWindow({
-  Title = "MonK x Mikey  Client ( Universal )",
+  Title = "MONK x MIKEY Client ( Universal )",
   Author = "User · " .. localPlayer.DisplayName,
-  Icon = "rbxassetid://120545479757972",
+  Icon = "rbxassetid://7389482331",
   Size = UDim2.fromOffset(540, 420),
   Transparent = true,
   Theme = "Dark",
   HideSearchBar = false,
   User = { Enabled = true },
   OpenButton = {
-    Title = "MonK x Mikey ",
+    Title = "MONK x MIKEY",
     Icon = "rbxassetid://120545479757972",
     CornerRadius = UDim.new(0, 15),
     StrokeThickness = 2,
@@ -55,7 +55,7 @@ infoTab:Image({
 infoTab:Space()
 
 infoTab:Section({
-  Title = "MonK x Mikey  Client Universal",
+  Title = "MONK x MIKEY Client Universal",
   TextSize = 24,
   FontWeight = Enum.FontWeight.SemiBold,
 })
@@ -63,7 +63,7 @@ infoTab:Section({
 infoTab:Space()
 
 infoTab:Paragraph({
-  Title = "MonK x Mikey  Community",
+  Title = "MONK x MIKEY Community",
   Desc = "Join the Discord official",
   Image = "rbxassetid://120545479757972",
   Thumbnail = "",
@@ -72,7 +72,7 @@ infoTab:Paragraph({
     {
       Title = "Copy Discord link",
       Icon = "link",
-      Callback = function() setclipboard("https://discord.gg/kyyxEUjuMs") end,
+      Callback = function() setclipboard("https://discord.gg/EVaFEpdrM") end,
     },
   },
 })
@@ -81,8 +81,8 @@ infoTab:Space()
 
 infoTab:Section({
   Title = [[
-MonK x Mikey , Multilingual and multifuncional client, offering a variety options for you, in development state.
-Developed by Nexus]],
+MONK x MIKEY, Multilingual and multifuncional client, offering a variety options for you, in development state.
+Developed by MONK]],
   TextSize = 18,
   TextTransparency = 0.35,
   FontWeight = Enum.FontWeight.Medium,
@@ -91,8 +91,8 @@ Developed by Nexus]],
 infoTab:Section({
   Title = [[
 New Features 1.0.0 (First Update):
-Added: MonK x Mikey  Client
-Credits: Nexus]],
+Added: MONK x MIKEYClient
+Credits: MONK]],
   TextSize = 14,
   TextTransparency = 0.45,
   FontWeight = Enum.FontWeight.Medium,
