@@ -1288,7 +1288,7 @@ MainTab:Button({
 })
 
 MainTab:Button({
-  Title = "System Broken",
+  Title = "LIFE TOGETHER",
   Desc = "Execute LIFE TOGETHER RP Script",
   Callback = function()
     windui:Notify({
@@ -1333,7 +1333,7 @@ MainTab:Button({
 })
 
 MainTab:Button({
-  Title = "Keyboard",
+  Title = "CelesitaL",
   Desc = "Execute Celestial Hub",
   Callback = function()
     windui:Notify({
